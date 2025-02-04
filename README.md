@@ -4,7 +4,7 @@ QA Project using playwright automation testing for ekipa student-platform
 
 ## 🧪 Test Automation with Playwright
 
-The testing/automation branch includes a comprehensive suite of automated tests written using **Playwright**. The suite includes **smoke tests** (critical path tests) and **functional tests** to verify the platform's features.
+This repository includes a comprehensive suite of automated tests written using **Playwright**. The suite covers smoke tests (critical path tests) and functional tests to verify the platform's features.
 
 ### 🛠 Setup Instructions
 
@@ -17,21 +17,17 @@ npx playwright install
 
 ### 🚀 How to Run the Tests
 
-#### Step 1
+#### Step 1: Start Backend and Frontend
 
-To run the tests you need to locally run the backend and the frontend application. For running the backend, instructions are provided in the readme file of the backend repository: https://github.com/DrErvin/Student_platform_server.git
+To run the tests, you must first start both the backend and frontend applications.
+
+Backend: Follow the instructions in the backend repository's README to start the backend server: https://github.com/DrErvin/Student_platform_server.git
+
+Frontend: Follow the instructions in the frontend repository's README to start the frontend server. The frontend should be run using Vite from the frontend repository: https://github.com/DrErvin/Ekipa-Project.git
 
 #### Step 2
 
-To run the frontend application we are using http static server. Instruction for starting it:
-
-```bash
- npm start
-```
-
-#### Step 3
-
-Next, open up another terminal window to run tests. Now you can run tests.
+Once both the backend and frontend are running, you can execute tests from the QA-Project Repo
 
 ##### Run All Tests
 
