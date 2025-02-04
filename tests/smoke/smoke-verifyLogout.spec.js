@@ -9,7 +9,7 @@ test('Verify logout functionality', async ({ page }) => {
   // Step 1: Navigate to the homepage and log in
   await loginPage.navigate();
   await loginPage.openLoginForm();
-  await loginPage.login('newuser@gmail.com', 'SecurePassword123');
+  await loginPage.login('studentuser@middlebury.edu', 'Test123');
   await loginPage.verifyLogin();
 
   // Step 2: Perform logout

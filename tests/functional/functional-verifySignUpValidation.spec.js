@@ -24,7 +24,7 @@ test('Verify email domain validation during sign-up', async ({ page }) => {
   // Step 5: Enter valid email domain and submit
   await signUpPage.enterSignUpDetails(
     'John Doe',
-    'user@telekom.com', // Valid domain
+    'example@telekom.com', // Valid domain
     'Password123'
   );
   await signUpPage.submitSignUpForm();

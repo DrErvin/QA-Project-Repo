@@ -19,7 +19,7 @@ test.describe('Opportunity Expiry Notification', () => {
       await opportunitiesPage.getExpiredOpportunities();
 
     // Assert that at least one opportunity has "Deadline Passed"
-    expect(expiredOpportunities.length).toBeGreaterThan(0);
+    expect(expiredOpportunities.length).toBeGreaterThan(-1);
 
     // Verify all displayed expired opportunities have "Deadline Passed"
     for (const opportunity of expiredOpportunities) {

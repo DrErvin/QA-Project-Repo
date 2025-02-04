@@ -12,7 +12,7 @@ test.describe('Session Persistence', () => {
     await loginPage.openLoginForm();
 
     // Perform login with valid credentials
-    await loginPage.login('newuser@gmail.com', 'SecurePassword123');
+    await loginPage.login('studentuser@middlebury.edu', 'Test123');
 
     // Verify successful login
     await loginPage.verifyLogin();

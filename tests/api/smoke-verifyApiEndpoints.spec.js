@@ -13,8 +13,8 @@ test.describe('API Smoke Tests', () => {
   test('should successfully sign up a new user', async () => {
     const newUser = {
       nameAndSurname: 'John Doe',
-      email: 'johndoe@university.com',
-      password: 'password123',
+      email: 'studentuser@middlebury.edu',
+      password: 'Test123',
     };
 
     // Send POST request to signup endpoint

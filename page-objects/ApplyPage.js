@@ -1,7 +1,7 @@
 class ApplyPage {
   constructor(page) {
     this.page = page;
-    this.applyNowButton = '#apply-top-btn';
+    this.applyNowButton = '.apply-now-btn';
     this.applicationForm = '.apply-form';
     this.submitButton = '.apply__btn';
     this.successMessage = '.message';
